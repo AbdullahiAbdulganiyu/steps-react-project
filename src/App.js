@@ -9,6 +9,7 @@ const messages = [
 export default function App() {
   // Creating the state variable(step)
   const [step, setStep] = useState(1);
+  const [isOpen, setIsOpen] = useState(true);
 
   function handlePrevious() {
     if (step > 1) setStep(step - 1);
