@@ -20,6 +20,7 @@ export default function App() {
   }
   return (
     <div>
+      <button className="close">&times;</button>
       {isOpen && (
         <div
           className="steps
