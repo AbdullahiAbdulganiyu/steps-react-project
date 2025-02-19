@@ -15,7 +15,7 @@ export default function App() {
   }
 
   function handleNext() {
-    alert("Next");
+    setStep(step + 1);
   }
   return (
     <div
