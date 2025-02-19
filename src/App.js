@@ -6,6 +6,14 @@ const messages = [
 
 export default function App() {
   const step = 1;
+
+  function handlePrevious() {
+    alert("Previous");
+  }
+
+  function handleNext() {
+    alert("Next");
+  }
   return (
     <div
       className="steps
