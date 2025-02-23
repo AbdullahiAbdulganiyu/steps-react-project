@@ -7,6 +7,14 @@ const messages = [
 ];
 
 export default function App() {
+  return (
+    <div>
+      <Step />
+    </div>
+  );
+}
+
+function Step() {
   // Creating the state variable(step)
   const [step, setStep] = useState(1);
   const [isOpen, setIsOpen] = useState(true);
