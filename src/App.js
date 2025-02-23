@@ -9,12 +9,12 @@ const messages = [
 export default function App() {
   return (
     <div>
-      <Step />
+      <Steps />
     </div>
   );
 }
 
-function Step() {
+function Steps() {
   // Creating the state variable(step)
   const [step, setStep] = useState(1);
   const [isOpen, setIsOpen] = useState(true);
