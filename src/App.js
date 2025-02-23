@@ -51,12 +51,12 @@ function Steps() {
               onClick={handlePrevious}
               text="Previous"
             />
-            <button
-              style={{ background: "#7950f2", color: "#fff" }}
+            <Button
+              textColor="#fff"
+              bgColor="#7950f2"
               onClick={handleNext}
-            >
-              Next
-            </button>
+              text="Next"
+            />
           </div>
         </div>
       )}
